@@ -1,0 +1,12 @@
+﻿Console.WriteLine("Введите координаты");
+int x = Convert.ToInt32(Console.ReadLine());
+int y = Convert.ToInt32(Console.ReadLine());
+int z = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine();
+int x1 = Convert.ToInt32(Console.ReadLine());
+int y1 = Convert.ToInt32(Console.ReadLine());
+int z1 = Convert.ToInt32(Console.ReadLine());
+double ab = 0;
+ab = (x1-x)*(x1-x) + (y1-y)*(y1-y) + (z1-z)*(z1-z);
+ab=Math.Sqrt(ab);
+Console.WriteLine(ab);
